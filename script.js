@@ -21,8 +21,8 @@ form.addEventListener("submit", function (e) {
   if (isFormValid) {
     alert("Registration successful!");
     form.reset();
-    document.querySelectorAll(".form-group").forEach((group) => {
-      group.className = "form-group";
+    document.querySelectorAll(".form-item").forEach((item) => {
+      item.className = "form-item";
     }); 
   }
 });
